@@ -1,1 +1,56 @@
-d
+###########################################################################
+##1. pbccs
+###########################################################################
+nohup ./1.pbccs_minimap.sh /data/zhaolian/LineageTracing/DSS/PacBio/Result-X101SC21114710-Z01-J002-B1-6-20220309/X101SC21114710-Z01_PacBio_Rawdata_XXXX/DSS-A/all/FKDN220062841-1A/m64164_220304_091036.subreads.bam DSSN &
+nohup ./1.pbccs_minimap.sh /data/zhaolian/LineageTracing/DSS/PacBio/Result-X101SC21114710-Z01-J002-B1-6-20220309/X101SC21114710-Z01_PacBio_Rawdata_XXXX/DSS-Tumor/all/FKDN220062840-1A/m64164_220304_192311.subreads.bam DSST &
+
+###########################################################################
+##2. run from ipynb
+###########################################################################
+SAMPLE_NAME = "DSST"
+SAMPLE_NAME = "DSSN"
+
+# count number of CCSs >=2 passes
+# for f in *.fastq; do describer=$(echo $f | sed 's/.fastq//'); echo $describer; cat $f | wc -l; done
+###########################################################################
+##3.
+###########################################################################
+./3.fastq2umi.sh
+
+###########################################################################
+##4.
+###########################################################################
+./4.usearch_cluster.sh
+# count number of UMI clusters
+# for f in *.uc; do describer=$(echo $f | sed 's/_umi_UsearchClusters.uc//'); echo $describer; cat $f | awk '{print $2}' | sort | uniq | wc -l; done
+###########################################################################
+##5.
+###########################################################################
+nohup ./5.minimap_split.sh &
+
+# for f in *.bam; do describer=$(echo $f | sed 's/.bam//'); echo $describer; samtools view -F 4 $f |awk '{print length($10)}'| sort > ${describer}_length.txt; done
+###########################################################################
+##6. run from ipynb
+###########################################################################
+SAMPLE_NAME = "DSST"
+SAMPLE_NAME = "DSSN"
+
+###########################################################################
+##7. run from ipynb
+###########################################################################
+SAMPLE_NAME = "DSST"
+SAMPLE_NAME = "DSSN"
+
+###########################################################################
+##8.
+###########################################################################
+perl 8.iqtree_submit2.pl 4 1 4T
+perl 8.iqtree_submit2.pl 4 1 5T
+perl 8.iqtree_submit2.pl 4 1 16T
+perl 8.iqtree_submit2.pl 4 1 47_1T
+perl 8.iqtree_submit2.pl 4 1 47_4T
+perl 8.iqtree_submit2.pl 4 1 47_5T
+perl 8.iqtree_submit2.pl 4 1 47_6T
+perl 8.iqtree_submit2.pl 4 1 47_8T
+perl 8.iqtree_submit2.pl 4 1 50T
+perl 8.iqtree_submit2.pl 4 1 66_1T
