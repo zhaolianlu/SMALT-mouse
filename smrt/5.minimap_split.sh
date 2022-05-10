@@ -1,11 +1,13 @@
 !#/usr/bin/bash
 
-INDIR="/data/zhaolian/LineageTracing/DSS/PacBio/2.fastq/"
-OUTDIR="/data/zhaolian/LineageTracing/DSS/PacBio/5.bam_split/"
+INDIR="/data/zhaolian/LineageTracing/DSS/PacBio/CCS5passes/2.fastq/"
+OUTDIR="/data/zhaolian/LineageTracing/DSS/PacBio/CCS5passes/5.bam_split/"
 REF="/data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi"
-# PIPDIR="/data/zhaolian/LineageTracing/DSS/PacBio/scripts/"
+# PIPDIR="/data/zhaolian/LineageTracing/DSS/PacBio/CCS5passes/scripts/"
 mkdir -p $OUTDIR
 cd $INDIR
+echo "running 5.minimap_split.sh ............"
+
 
 for sample in *.fastq
   do 

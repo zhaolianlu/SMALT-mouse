@@ -1,0 +1,665 @@
+./2.parse_feature.py:行1: import: 未找到命令
+./2.parse_feature.py:行2: import: 未找到命令
+./2.parse_feature.py:行3: import: 未找到命令
+./2.parse_feature.py:行4: from: 未找到命令
+./2.parse_feature.py:行5: from: 未找到命令
+./2.parse_feature.py:行6: $'\r': 未找到命令
+./2.parse_feature.py:行7: import: 未找到命令
+./2.parse_feature.py:行8: import: 未找到命令
+./2.parse_feature.py:行9: import: 未找到命令
+./2.parse_feature.py:行10: $'\r': 未找到命令
+./2.parse_feature.py:行14: $'@dataclass\r': 未找到命令
+./2.parse_feature.py:行15: class: 未找到命令
+./2.parse_feature.py:行16: seq:: 未找到命令
+./2.parse_feature.py:行17: qual:: 未找到命令
+./2.parse_feature.py:行18: $'\r': 未找到命令
+./2.parse_feature.py:行19: $'@dataclass\r': 未找到命令
+./2.parse_feature.py:行20: class: 未找到命令
+./2.parse_feature.py:行21: sam5:: 未找到命令
+./2.parse_feature.py:行22: umi:: 未找到命令
+./2.parse_feature.py:行23: bio:: 未找到命令
+./2.parse_feature.py:行24: sam3:: 未找到命令
+./2.parse_feature.py:行25: $'\r': 未找到命令
+./2.parse_feature.py:行26: 未预期的符号 `(' 附近有语法错误
+./2.parse_feature.py:行26: `def edit_barcode(barcode_seq: str,BC) -> Tuple[str, int]:'
+./5.minimap_split.sh:行1: !#/usr/bin/bash: 没有那个文件或目录
+16N.fastq
+16N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.047*0.08] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.047*0.08] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.047*0.09] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::9.864*19.45] mapped 168094 sequences
+[M::worker_pipeline::11.154*17.31] mapped 75473 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 16N.fastq
+[M::main] Real time: 11.242 sec; CPU: 193.187 sec; Peak RSS: 1.685 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+16T.fastq
+16T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*1.00] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*1.00] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*1.00] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::9.878*22.84] mapped 166645 sequences
+[M::worker_pipeline::13.316*18.92] mapped 162859 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 16T.fastq
+[M::main] Real time: 13.401 sec; CPU: 251.977 sec; Peak RSS: 2.175 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_1N.fastq
+47_1N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.97] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.97] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.97] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::9.443*18.98] mapped 166289 sequences
+[M::worker_pipeline::10.381*17.35] mapped 63149 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_1N.fastq
+[M::main] Real time: 10.480 sec; CPU: 180.239 sec; Peak RSS: 1.593 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_1T.fastq
+47_1T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*1.04] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*1.04] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*1.04] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::2.030*14.41] mapped 38915 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_1T.fastq
+[M::main] Real time: 2.032 sec; CPU: 29.258 sec; Peak RSS: 0.403 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_4N.fastq
+47_4N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.87] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.88] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.88] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::0.233*14.22] mapped 3926 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_4N.fastq
+[M::main] Real time: 0.235 sec; CPU: 3.319 sec; Peak RSS: 0.114 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_4T.fastq
+47_4T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*1.01] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*1.01] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*1.01] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::8.315*13.93] mapped 151315 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_4T.fastq
+[M::main] Real time: 8.317 sec; CPU: 115.802 sec; Peak RSS: 1.131 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_5N.fastq
+47_5N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.88] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.88] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.88] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::1.455*14.29] mapped 27841 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_5N.fastq
+[M::main] Real time: 1.456 sec; CPU: 20.785 sec; Peak RSS: 0.285 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_5T.fastq
+47_5T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.86] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.87] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.87] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::3.110*14.41] mapped 58764 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_5T.fastq
+[M::main] Real time: 3.112 sec; CPU: 44.822 sec; Peak RSS: 0.550 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_6N.fastq
+47_6N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.90] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.90] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.90] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::1.921*14.44] mapped 37140 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_6N.fastq
+[M::main] Real time: 1.923 sec; CPU: 27.753 sec; Peak RSS: 0.356 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_6T.fastq
+47_6T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.98] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.98] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.98] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::2.765*14.41] mapped 52103 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_6T.fastq
+[M::main] Real time: 2.767 sec; CPU: 39.852 sec; Peak RSS: 0.516 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_8N.fastq
+47_8N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.99] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.99] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.99] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::9.485*18.10] mapped 166929 sequences
+[M::worker_pipeline::10.234*16.85] mapped 50664 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_8N.fastq
+[M::main] Real time: 10.335 sec; CPU: 172.502 sec; Peak RSS: 1.528 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_8T.fastq
+47_8T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.77] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.78] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.78] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::4.702*15.06] mapped 83741 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_8T.fastq
+[M::main] Real time: 4.703 sec; CPU: 70.813 sec; Peak RSS: 0.809 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+4N.fastq
+4N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.93] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.93] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.93] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::11.508*18.80] mapped 166293 sequences
+[M::worker_pipeline::12.244*17.73] mapped 42034 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 4N.fastq
+[M::main] Real time: 12.338 sec; CPU: 217.157 sec; Peak RSS: 1.416 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+4T.fastq
+4T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.84] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.84] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.85] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::9.572*18.40] mapped 166438 sequences
+[M::worker_pipeline::10.556*16.77] mapped 62759 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 4T.fastq
+[M::main] Real time: 10.642 sec; CPU: 177.154 sec; Peak RSS: 1.589 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+50N.fastq
+50N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.88] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.88] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.88] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::11.147*23.69] mapped 166319 sequences
+[M::worker_pipeline::13.187*20.33] mapped 118610 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 50N.fastq
+[M::main] Real time: 13.275 sec; CPU: 268.229 sec; Peak RSS: 1.908 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+50T.fastq
+50T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.80] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.81] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.81] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::5.303*15.38] mapped 89104 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 50T.fastq
+[M::main] Real time: 5.305 sec; CPU: 81.591 sec; Peak RSS: 0.702 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+5N.fastq
+5N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.97] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.97] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.97] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::11.978*23.88] mapped 166674 sequences
+[M::worker_pipeline::13.710*20.99] mapped 107173 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 5N.fastq
+[M::main] Real time: 13.812 sec; CPU: 287.878 sec; Peak RSS: 1.826 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+5T.fastq
+5T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.89] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.89] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.90] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::10.390*19.35] mapped 168189 sequences
+[M::worker_pipeline::11.195*18.03] mapped 51321 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 5T.fastq
+[M::main] Real time: 11.292 sec; CPU: 201.915 sec; Peak RSS: 1.526 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+66_1N.fastq
+66_1N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.75] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.75] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.76] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::12.113*22.94] mapped 166225 sequences
+[M::worker_pipeline::13.780*20.28] mapped 103463 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 66_1N.fastq
+[M::main] Real time: 13.875 sec; CPU: 279.579 sec; Peak RSS: 1.770 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+66_1T.fastq
+66_1T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.94] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.94] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.94] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::9.029*15.42] mapped 150538 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 66_1T.fastq
+[M::main] Real time: 9.032 sec; CPU: 139.217 sec; Peak RSS: 1.089 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+[M::bam2fq_mainloop] discarded 0 singletons
+[M::bam2fq_mainloop] processed 1520120 reads
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.047*0.12] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.047*0.12] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.047*0.12] distinct minimizers: 611 (97.55% are singletons); average occurrences: 1.036; average spacing: 5.368
+[M::worker_pipeline::123.280*3.78] mapped 177873 sequences
+[M::worker_pipeline::166.875*5.00] mapped 177626 sequences
+[M::worker_pipeline::212.222*5.67] mapped 178005 sequences
+[M::worker_pipeline::259.551*6.02] mapped 178740 sequences
+[M::worker_pipeline::294.307*6.46] mapped 178390 sequences
+[M::worker_pipeline::337.251*6.75] mapped 178066 sequences
+[M::worker_pipeline::426.214*6.18] mapped 176494 sequences
+[M::worker_pipeline::464.086*6.42] mapped 177207 sequences
+[M::worker_pipeline::480.896*6.45] mapped 97719 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 10 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_BC_UMI_HMF_BC.mmi DSS2_stranded_ccs.fastq
+[M::main] Real time: 480.945 sec; CPU: 3101.725 sec; Peak RSS: 2.405 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+./5.minimap_split.sh:行1: !#/usr/bin/bash: 没有那个文件或目录
+16N.fastq
+16N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.053*0.08] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.054*0.09] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.054*0.09] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::14.805*22.19] mapped 168094 sequences
+[M::worker_pipeline::15.995*20.62] mapped 75473 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 16N.fastq
+[M::main] Real time: 16.128 sec; CPU: 329.875 sec; Peak RSS: 1.621 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+16T.fastq
+16T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.81] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.82] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.82] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::18.983*16.62] mapped 166645 sequences
+[M::worker_pipeline::26.155*16.71] mapped 162859 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 16T.fastq
+[M::main] Real time: 26.333 sec; CPU: 437.171 sec; Peak RSS: 2.119 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+2_1T.fastq
+2_1T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*1.01] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*1.01] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*1.01] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::6.156*15.59] mapped 69961 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 2_1T.fastq
+[M::main] Real time: 6.158 sec; CPU: 95.955 sec; Peak RSS: 0.540 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+2_3T.fastq
+2_3T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*1.00] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*1.00] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*1.00] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::6.949*15.13] mapped 76443 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 2_3T.fastq
+[M::main] Real time: 6.951 sec; CPU: 105.119 sec; Peak RSS: 0.575 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+2N.fastq
+2N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.94] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.94] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.94] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::7.493*14.70] mapped 78403 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 2N.fastq
+[M::main] Real time: 7.495 sec; CPU: 110.140 sec; Peak RSS: 0.602 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_1N.fastq
+47_1N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.92] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.93] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.93] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::20.019*15.42] mapped 166289 sequences
+[M::worker_pipeline::21.171*14.64] mapped 63149 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_1N.fastq
+[M::main] Real time: 21.311 sec; CPU: 310.062 sec; Peak RSS: 1.526 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_1T.fastq
+47_1T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.98] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.98] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.98] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::3.682*14.62] mapped 38915 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_1T.fastq
+[M::main] Real time: 3.684 sec; CPU: 53.846 sec; Peak RSS: 0.343 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_4N.fastq
+47_4N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.005*0.97] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.005*0.97] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.005*0.97] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::0.469*12.37] mapped 3926 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_4N.fastq
+[M::main] Real time: 0.471 sec; CPU: 5.805 sec; Peak RSS: 0.063 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_4T.fastq
+47_4T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.92] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.92] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.93] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::15.317*13.11] mapped 151315 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_4T.fastq
+[M::main] Real time: 15.320 sec; CPU: 200.739 sec; Peak RSS: 1.074 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_5N.fastq
+47_5N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*1.11] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.005*1.11] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.005*1.11] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::2.430*15.67] mapped 27841 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_5N.fastq
+[M::main] Real time: 2.431 sec; CPU: 38.064 sec; Peak RSS: 0.234 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_5T.fastq
+47_5T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.006*1.04] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.006*1.03] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.006*1.03] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::4.999*17.05] mapped 58764 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_5T.fastq
+[M::main] Real time: 5.001 sec; CPU: 85.238 sec; Peak RSS: 0.501 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_6N.fastq
+47_6N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.033*0.18] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.034*0.18] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.034*0.19] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::3.592*14.04] mapped 37140 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_6N.fastq
+[M::main] Real time: 3.595 sec; CPU: 50.426 sec; Peak RSS: 0.308 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_6T.fastq
+47_6T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.005*0.88] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.005*0.89] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.005*0.89] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::4.888*15.30] mapped 52103 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_6T.fastq
+[M::main] Real time: 4.890 sec; CPU: 74.787 sec; Peak RSS: 0.467 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_8N.fastq
+47_8N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.83] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.83] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.83] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::20.137*14.23] mapped 166929 sequences
+[M::worker_pipeline::21.084*13.63] mapped 50664 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_8N.fastq
+[M::main] Real time: 21.312 sec; CPU: 287.661 sec; Peak RSS: 1.477 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+47_8T.fastq
+47_8T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.79] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.79] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.80] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::8.826*14.94] mapped 83741 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 47_8T.fastq
+[M::main] Real time: 8.828 sec; CPU: 131.834 sec; Peak RSS: 0.759 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+49_1T.fastq
+49_1T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.96] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.96] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.96] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::5.625*13.34] mapped 56901 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 49_1T.fastq
+[M::main] Real time: 5.627 sec; CPU: 75.040 sec; Peak RSS: 0.434 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+49_2T.fastq
+49_2T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.84] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.85] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.85] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::0.101*14.98] mapped 594 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 49_2T.fastq
+[M::main] Real time: 0.102 sec; CPU: 1.508 sec; Peak RSS: 0.078 GB
+49_3T.fastq
+49_3T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.97] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.98] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.98] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::9.882*14.67] mapped 97447 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 49_3T.fastq
+[M::main] Real time: 9.885 sec; CPU: 145.004 sec; Peak RSS: 0.704 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+49N.fastq
+49N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*1.07] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*1.07] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*1.07] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::5.914*14.49] mapped 62496 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 49N.fastq
+[M::main] Real time: 5.916 sec; CPU: 85.719 sec; Peak RSS: 0.496 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+4N.fastq
+4N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*1.05] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*1.04] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*1.04] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::19.730*14.07] mapped 166293 sequences
+[M::worker_pipeline::20.416*13.63] mapped 42034 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 4N.fastq
+[M::main] Real time: 20.633 sec; CPU: 278.423 sec; Peak RSS: 1.398 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+4T.fastq
+4T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.90] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.91] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.91] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::15.587*20.46] mapped 166438 sequences
+[M::worker_pipeline::17.186*18.65] mapped 62759 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 4T.fastq
+[M::main] Real time: 17.399 sec; CPU: 320.665 sec; Peak RSS: 1.536 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+50N.fastq
+50N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.85] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.85] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.85] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::13.906*22.74] mapped 166319 sequences
+[M::worker_pipeline::17.520*19.91] mapped 118610 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 50N.fastq
+[M::main] Real time: 17.735 sec; CPU: 349.044 sec; Peak RSS: 1.865 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+50T.fastq
+50T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.91] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.91] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.005*0.92] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::7.575*13.78] mapped 89104 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 50T.fastq
+[M::main] Real time: 7.577 sec; CPU: 104.399 sec; Peak RSS: 0.670 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+5N.fastq
+5N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.003*0.96] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*0.96] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*0.96] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::13.322*23.55] mapped 166674 sequences
+[M::worker_pipeline::14.962*21.08] mapped 107173 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 5N.fastq
+[M::main] Real time: 15.164 sec; CPU: 315.601 sec; Peak RSS: 1.791 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+5T.fastq
+5T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.006*1.06] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.006*1.06] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.006*1.06] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::12.537*21.28] mapped 168189 sequences
+[M::worker_pipeline::13.474*19.87] mapped 51321 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 5T.fastq
+[M::main] Real time: 13.618 sec; CPU: 267.927 sec; Peak RSS: 1.494 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+65_1T.fastq
+65_1T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.78] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.79] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.80] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::1.453*15.56] mapped 20345 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 65_1T.fastq
+[M::main] Real time: 1.455 sec; CPU: 22.616 sec; Peak RSS: 0.200 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+65_3T.fastq
+65_3T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.93] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.005*0.93] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.005*0.93] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::5.121*15.30] mapped 70531 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 65_3T.fastq
+[M::main] Real time: 5.123 sec; CPU: 78.366 sec; Peak RSS: 0.545 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+65N.fastq
+65N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.004*0.79] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*0.80] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.004*0.80] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::7.063*15.56] mapped 87633 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 65N.fastq
+[M::main] Real time: 7.065 sec; CPU: 109.912 sec; Peak RSS: 0.674 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+66_1N.fastq
+66_1N
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.005*0.93] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.005*0.94] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.005*0.94] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::17.584*20.61] mapped 166225 sequences
+[M::worker_pipeline::19.465*19.07] mapped 103463 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 66_1N.fastq
+[M::main] Real time: 19.713 sec; CPU: 371.368 sec; Peak RSS: 1.755 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...
+66_1T.fastq
+66_1T
+[WARNING][1;31m Indexing parameters (-k, -w or -H) overridden by parameters used in the prebuilt index.[0m
+[M::main::0.005*1.04] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.005*1.04] mid_occ = 8
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.005*1.04] distinct minimizers: 549 (97.27% are singletons); average occurrences: 1.040; average spacing: 5.261
+[M::worker_pipeline::13.502*14.47] mapped 150538 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -t 28 -A 4 -B 12 -O 10,15 -E 2,1 --score-N 0 --end-bonus 10 -a --MD -x map-pb /data/zhaolian/LineageTracing/DSS/PacBio/reference/3k_HMFonly.mmi 66_1T.fastq
+[M::main] Real time: 13.505 sec; CPU: 195.364 sec; Peak RSS: 1.067 GB
+[bam_sort_core] merging from 0 files and 10 in-memory blocks...

@@ -3,12 +3,14 @@
 ###########################################################################
 nohup ./1.pbccs_minimap.sh /data/zhaolian/LineageTracing/DSS/PacBio/Result-X101SC21114710-Z01-J002-B1-6-20220309/X101SC21114710-Z01_PacBio_Rawdata_XXXX/DSS-A/all/FKDN220062841-1A/m64164_220304_091036.subreads.bam DSSN &
 nohup ./1.pbccs_minimap.sh /data/zhaolian/LineageTracing/DSS/PacBio/Result-X101SC21114710-Z01-J002-B1-6-20220309/X101SC21114710-Z01_PacBio_Rawdata_XXXX/DSS-Tumor/all/FKDN220062840-1A/m64164_220304_192311.subreads.bam DSST &
+nohup ./1.pbccs_minimap.sh /data/zhaolian/LineageTracing/DSS/PacBio/Result-X101SC21114710-Z01-J003-B1-6_delivery_20220420/X101SC21114710-Z01_PacBio_Rawdata_XXXX/DSS2/all/FKDN220105899-1A/m64168e_220410_042149.subreads.bam DSS2 &
 
 ###########################################################################
 ##2. run from ipynb
 ###########################################################################
-SAMPLE_NAME = "DSST"
-SAMPLE_NAME = "DSSN"
+
+nohup ./2.parse_feature.py DSSN &
+nohup ./2.parse_feature.py DSST &
 
 # count number of CCSs >=2 passes
 # for f in *.fastq; do describer=$(echo $f | sed 's/.fastq//'); echo $describer; cat $f | wc -l; done
@@ -22,13 +24,22 @@ SAMPLE_NAME = "DSSN"
 ###########################################################################
 ./4.usearch_cluster.sh
 # count number of UMI clusters
+
 # for f in *.uc; do describer=$(echo $f | sed 's/_umi_UsearchClusters.uc//'); echo $describer; cat $f | awk '{print $2}' | sort | uniq | wc -l; done
+files <- list.files(pattern = "_umi_UsearchClusters.uc")
+for(my.sample in 1:length(files)){
+  x <- read.delim(files[my.sample],header = F)
+  print(gsub("_umi_UsearchClusters.uc","",files[my.sample]))
+  dt <- as.data.frame(table(x$V2))
+  print(nrow(dt[dt$Freq >=3,]))
+}
+
 ###########################################################################
 ##5.
 ###########################################################################
 nohup ./5.minimap_split.sh &
 
-# for f in *.bam; do describer=$(echo $f | sed 's/.bam//'); echo $describer; samtools view -F 4 $f |awk '{print length($10)}'| sort > ${describer}_length.txt; done
+
 ###########################################################################
 ##6. run from ipynb
 ###########################################################################
@@ -40,6 +51,8 @@ SAMPLE_NAME = "DSSN"
 ###########################################################################
 SAMPLE_NAME = "DSST"
 SAMPLE_NAME = "DSSN"
+
+# for f in *_character_matrix.tsv; do describer=$(echo $f | sed 's/_character_matrix.tsv//'); echo $describer; cat $f | wc -l; done
 
 ###########################################################################
 ##8.
@@ -54,3 +67,30 @@ perl 8.iqtree_submit2.pl 4 1 47_6T
 perl 8.iqtree_submit2.pl 4 1 47_8T
 perl 8.iqtree_submit2.pl 4 1 50T
 perl 8.iqtree_submit2.pl 4 1 66_1T
+
+iqtree -T 20 -s 16N.phy -o ref
+iqtree -T 20 -s 16N.phy -o ref
+
+## node1
+#iqtree -T AUTO -s 4N.phy -o ref
+nohup iqtree -T 20 -s 4T.phy -o ref &
+nohup iqtree -T 20 -s 5N.phy -o ref &
+nohup iqtree -T 20 -s 5T.phy -o ref &
+nohup iqtree -T 20 -s 49N.phy -o ref &
+nohup iqtree -T 20 -s 49_1T.phy -o ref &
+## node 2
+nohup iqtree -T 20 -s 50N.phy -o ref &
+nohup iqtree -T 20 -s 50T.phy -o ref &
+nohup iqtree -T 20 -s 66_1N.phy -o ref &
+nohup iqtree -T 20 -s 66_1T.phy -o ref &
+
+## master
+nohup iqtree -T 20 -s 2_3T.phy -o ref &
+nohup iqtree -T 20 -s 2N.phy -o ref &
+nohup iqtree -T 20 -s 47_1N.phy -o ref &
+nohup iqtree -T 20 -s 47_1T.phy -o ref &
+## node 3
+nohup iqtree -T 20 -s 47_4N.phy -o ref &
+nohup iqtree -T 20 -s 47_4T.phy -o ref &
+nohup iqtree -T 20 -s 65_3T.phy -o ref &
+nohup iqtree -T 20 -s 65N.phy -o ref &
