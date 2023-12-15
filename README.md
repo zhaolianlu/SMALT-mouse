@@ -1,6 +1,6 @@
 # LineageTracing
 
-## SMALT-mouse is a computational framework to pre-process PacBio sequencing data of 3kb barcode from SMALT mouse, and map single-cell phylogeny during IBD or FAP-driven tumorigenesis.
+SMALT-mouse is a computational framework to pre-process PacBio sequencing data of 3kb barcode from SMALT mouse, and map single-cell phylogeny during IBD or FAP-driven tumorigenesis.
 
 ## How to use?
 git clone https://github.com/zhaolianlu/SMALT-mouse.git
