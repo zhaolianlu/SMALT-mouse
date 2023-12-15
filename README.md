@@ -1,4 +1,4 @@
-# SMALT-mouse - Single-cell lineage tracing of early-stage tumorigenesis based SMALT (Substitution Mutation-Aided Lineage-Tracing) mice.
+# SMALT-mouse - Single-cell lineage tracing of early-stage tumorigenesis based on SMALT (Substitution Mutation-Aided Lineage-Tracing) mice.
 
 SMALT-mouse is a computational framework to pre-process PacBio sequencing data of 3kb barcode from SMALT mouse, and map single-cell phylogeny during IBD or FAP-driven tumorigenesis.
 
