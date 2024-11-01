@@ -1,4 +1,4 @@
-# SMALT-mouse - Systematic lineage tracing reveals multi- to uni-ancestral transition in colorectal precancer.
+# SMALT-mouse - Polyclonal-to-monoclonal transition in colorectal precancerous evolution
 
 SMALT-mouse is a computational framework to pre-process PacBio sequencing data of 3kb barcode from SMALT mouse, and map single-cell phylogeny during IBD or FAP-driven tumorigenesis.
 
@@ -7,7 +7,7 @@ git clone https://github.com/zhaolianlu/SMALT-mouse.git
 
 ## Citation
 
-Zhaolian Lu#, Shanlan Mo#, Duo Xie#, Xiangwei Zhai#, Shanjun Deng#, Kantian Zhou, Kun Wang, Xueling Kang, Hao Zhang, Juanzhen Tong, Liangzhen Hou, Huijuan Hu, Xuefei Li, Da Zhou, Leo Tsz On Lee, Li Liu, Yaxi Zhu, Jing Yu, Ping Lan, Jiguang Wang, Zhen He*, Xionglei He*, Zheng Hu*. Systematic lineage tracing reveals multi- to uni-ancestral transition in colorectal precancer.
+Lu, Z., Mo, S., Xie, D. et al. Polyclonal-to-monoclonal transition in colorectal precancerous evolution. Nature (2024). https://doi.org/10.1038/s41586-024-08133-1.
 
 ## License
 Free Software: MIT License
