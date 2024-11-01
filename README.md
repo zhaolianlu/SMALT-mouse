@@ -1,6 +1,6 @@
-# SMALT-mouse - Polyclonal-to-monoclonal transition in colorectal precancerous evolution
+# Polyclonal-to-monoclonal transition in colorectal precancerous evolution
 
-SMALT-mouse is a computational framework to pre-process PacBio sequencing data of 3kb barcode from SMALT mouse, and map single-cell phylogeny during IBD or FAP-driven tumorigenesis.
+SMALT-mouse is a computational framework to pre-process PacBio sequencing data of 3kb barcode from SMALT mouse, and map single-cell phylogeny in IBD or Apc-driven tumorigenesis.
 
 ## How to use?
 git clone https://github.com/zhaolianlu/SMALT-mouse.git
